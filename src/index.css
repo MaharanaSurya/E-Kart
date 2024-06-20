@@ -1,0 +1,70 @@
+.nav-bar{
+    display : flex;
+    align-content: center;
+    justify-content: space-between;
+    background-color: rgb(49, 49, 79);
+    padding : 14px
+}
+.brand{
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+    width: 20%;
+}
+.search-box{
+    width: 60%;
+    text-align: center;
+}
+.search-box>input{
+    width: 50%;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.search-box>input::placeholder{
+    padding: 5px;
+    font-weight: 700;
+}
+.cart{
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+    width: 20%;
+}
+.filter-nav{
+    background-color: #2f28bc;
+    color: white;
+}
+.filter-nav>ul{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.filter-nav>ul>li{
+    list-style-type: none;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+}
+.navbar-link{
+    text-decoration: none;
+    color: white;
+}
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img>img{
+    width: 350px;
+    height: 350px;
+}
+.con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap : 4rem;
+}
